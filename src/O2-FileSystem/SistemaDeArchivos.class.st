@@ -15,6 +15,25 @@ SistemaDeArchivos class >> llamado: 	unString creadoEl: unaFecha [
 ^ self new inicializarConNombre: unString  fecha: unaFecha.
 ]
 
+{ #category : #public }
+SistemaDeArchivos >> archivoMasGrande [
+
+^ self subclassResponsibility.
+]
+
+{ #category : #'as yet unclassified' }
+SistemaDeArchivos >> archivoMasNuevo [
+
+^ self subclassResponsibility.
+
+]
+
+{ #category : #accessing }
+SistemaDeArchivos >> fechaDeCreacion [
+
+^ fechaDeCreacion.
+]
+
 { #category : #initialization }
 SistemaDeArchivos >> inicializarConNombre: unNombre fecha: unaFecha [
 
@@ -28,7 +47,7 @@ SistemaDeArchivos >> nombre [
 ^ nombre.
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #public }
 SistemaDeArchivos >> soyArchivo [
 
 ^ 0.

@@ -14,7 +14,19 @@ Archivo class >> llamado: unString creadoEl: unaFecha kBytes: unNumero [
 Archivo class >> llamado: unString fecha: unaFecha kBytes: unNumero [
 ]
 
+{ #category : #public }
+Archivo >> archivoMasGrande [
+
+^ self.
+]
+
 { #category : #'as yet unclassified' }
+Archivo >> archivoMasNuevo [
+
+^ self.
+]
+
+{ #category : #public }
 Archivo >> soyArchivo [ 
 
 ^ 1.
