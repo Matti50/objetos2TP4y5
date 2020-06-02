@@ -67,7 +67,8 @@ ToDoItemTest >> testTogglePause [
 
 self should: [toDoPending togglePause] raise: Error.
 self should: [ toDoFinished togglePause ] raise: Error.
-self assert: (toDoStarted estado class) equals: InProgress.
+self deny: (toDoStarted inicio) equals: 0.
+self assert: (toDoStarted fin) equals: 0.
 toDoStarted togglePause.
 self assert: (toDoStarted estado class) equals: Paused.
 toDoStarted togglePause.
@@ -79,7 +80,7 @@ self assert: (toDoStarted estado class) equals: InProgress.
 ToDoItemTest >> testWorkedTime [
 
 self should: [ toDoPending workedTime ] raise: Error.
-self should: [ toDoStarted workedTime  ] raise: Error.
-self assert: ( finishedMock workedTime ) equals: 20.
+self assert: (finishedMock inicio < finishedMock fin).
+self assert: ( finishedMock workedTime ) equals: ('0:16:00:00' asDuration) .
 
 ]

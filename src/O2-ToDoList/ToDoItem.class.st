@@ -63,7 +63,7 @@ ToDoItem >> fin: aTimeStamp [
 fin := aTimeStamp.
 ]
 
-{ #category : #initialization }
+{ #category : #public }
 ToDoItem >> finish [ 
 
 estado finish: self.
@@ -104,7 +104,7 @@ fin := 0.
 
 ]
 
-{ #category : #accessing }
+{ #category : #public }
 ToDoItem >> start [ 
 
 estado start: self.

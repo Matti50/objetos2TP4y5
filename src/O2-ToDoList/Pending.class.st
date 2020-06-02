@@ -7,7 +7,7 @@ Class {
 { #category : #accessing }
 Pending >> start: aToDoItem [
 
-aToDoItem inicio: Time current.
+aToDoItem inicio: DateAndTime current.
 aToDoItem estado: (InProgress new).
 
 

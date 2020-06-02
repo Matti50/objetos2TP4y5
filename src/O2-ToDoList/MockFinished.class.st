@@ -8,8 +8,8 @@ Class {
 MockFinished >> initialize [
 
 estado := Finished new.
-inicio := '3:30:10 pm'.
-fin := '3:50:20 pm'. 
+inicio := '2020-06-01T20:35:49.699578-03:00' asDateAndTime .
+fin := '2020-06-02T12:35:49.699578-03:00' asDateAndTime . 
 
 
 ]

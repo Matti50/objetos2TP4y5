@@ -11,7 +11,7 @@ aToDoItem agregarComentario: aComment.
 ]
 
 { #category : #initialization }
-State >> finish [ 
+State >> finish: aToDoItem [ 
 
 ^ self.
 ]
@@ -31,5 +31,5 @@ State >> togglePause: aToDoItem [
 { #category : #public }
 State >> workedTime: aToDoItem [
 
-^ aToDoItem minutosDeInicio - Time current minutes.
+^  DateAndTime current - aToDoItem inicio.
 ]

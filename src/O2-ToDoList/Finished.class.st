@@ -13,5 +13,5 @@ Finished >> addComment: aComment item: aToDoItem [
 { #category : #public }
 Finished >> workedTime: aToDoItem [
 
-^ aToDoItem minutosDeFin - aToDoItem minutosDeInicio.
+^ (aToDoItem fin - aToDoItem inicio) asDuration .
 ]
