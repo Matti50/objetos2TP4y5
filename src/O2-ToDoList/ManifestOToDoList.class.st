@@ -1,5 +1,9 @@
 "
 https://app.diagrams.net/#G157qrPheYJzO-BzGCW23SlXVve2xAFzqF
+
+Ejercicio2: 
+
+https://drive.google.com/file/d/1AF_pGRGRDjErfIAQ6fUOvNlXGXHwkmEA/view?usp=sharing
 "
 Class {
 	#name : #ManifestOToDoList,
