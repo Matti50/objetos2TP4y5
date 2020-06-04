@@ -81,18 +81,6 @@ ToDoItem >> inicio: aTimeStamp [
 inicio:= aTimeStamp.
 ]
 
-{ #category : #public }
-ToDoItem >> minutosDeFin [
-
-^ fin asTime minutes.
-]
-
-{ #category : #public }
-ToDoItem >> minutosDeInicio [
-
-^ inicio asTime minutes.
-]
-
 { #category : #accessing }
 ToDoItem >> nombre: unNombre [
 
