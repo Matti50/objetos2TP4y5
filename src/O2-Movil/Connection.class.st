@@ -4,14 +4,14 @@ Class {
 	#category : #'O2-Movil-Model'
 }
 
-{ #category : #public }
-Connection >> sendData: aString crc: anInteger [
+{ #category : #accessing }
+Connection >> pict [
 
 ^ self subclassResponsibility.
 ]
 
-{ #category : #printing }
-Connection >> symbol [
+{ #category : #public }
+Connection >> sendData: aString crc: anInteger [
 
-^ self subclassResponsibility
+^ self subclassResponsibility.
 ]

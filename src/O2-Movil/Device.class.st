@@ -20,7 +20,7 @@ Device >> conectarCon: unaConexion [
 
 ringer ring.
 connection := unaConexion.
-^ display showBanner: (unaConexion symbol). 
+^ display showBanner: (unaConexion pict). 
 ]
 
 { #category : #public }

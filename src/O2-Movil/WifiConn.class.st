@@ -32,9 +32,3 @@ Transcript show: msj.
 
 
 ]
-
-{ #category : #printing }
-WifiConn >> symbol [
-
-^ self pict.
-]

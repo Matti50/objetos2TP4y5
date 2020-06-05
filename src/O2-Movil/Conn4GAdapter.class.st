@@ -13,14 +13,14 @@ Conn4GAdapter >> initialize [
 c4g := Conn4G new.
 ]
 
+{ #category : #printing }
+Conn4GAdapter >> pict [
+
+^ c4g symb.
+]
+
 { #category : #public }
 Conn4GAdapter >> sendData: aString crc: anInteger [
 
 ^ c4g transmit: aString crc: anInteger.
-]
-
-{ #category : #printing }
-Conn4GAdapter >> symbol [
-
-^ c4g symb.
 ]
