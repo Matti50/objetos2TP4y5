@@ -21,7 +21,7 @@ SistemaDeArchivos >> archivoMasGrande [
 ^ self subclassResponsibility.
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #public }
 SistemaDeArchivos >> archivoMasNuevo [
 
 ^ self subclassResponsibility.

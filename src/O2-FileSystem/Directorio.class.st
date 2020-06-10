@@ -20,7 +20,7 @@ Directorio >> archivoMasGrande [
 
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #public }
 Directorio >> archivoMasNuevo [
 
 ^ ((contenido collect: [ :each | each  archivoMasNuevo]) sort: [:a :b | a fechaDeCreacion > b fechaDeCreacion]) first.

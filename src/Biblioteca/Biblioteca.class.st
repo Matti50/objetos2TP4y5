@@ -20,7 +20,7 @@ Biblioteca >> agregarSocio: aSocio [
 	socios add: aSocio.
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #public }
 Biblioteca >> exportarSocios [
 "Retorna la representacion JSON de la coleccion de socios."
 

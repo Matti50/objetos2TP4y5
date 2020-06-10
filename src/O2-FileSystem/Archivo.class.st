@@ -20,7 +20,7 @@ Archivo >> archivoMasGrande [
 ^ self.
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #public }
 Archivo >> archivoMasNuevo [
 
 ^ self.
