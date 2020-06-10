@@ -70,9 +70,9 @@ self should: [ toDoFinished togglePause ] raise: Error.
 self deny: (toDoStarted inicio) equals: 0.
 self assert: (toDoStarted fin) equals: 0.
 toDoStarted togglePause.
-self assert: (toDoStarted estado class) equals: Paused.
+self shouldnt: [ toDoStarted togglePause ] raise: Error.
 toDoStarted togglePause.
-self assert: (toDoStarted estado class) equals: InProgress.
+self shouldnt: [ toDoStarted togglePause ] raise: Error.
 
 ]
 
