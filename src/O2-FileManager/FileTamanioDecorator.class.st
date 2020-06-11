@@ -5,7 +5,7 @@ Class {
 }
 
 { #category : #'menu commands' }
-FileTamanioDecorator >> prettyPrint [ 
+FileTamanioDecorator >> decorate [
 
-^ super prettyPrint , self tamanio
+^ self tamanio
 ]

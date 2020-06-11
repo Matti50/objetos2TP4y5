@@ -13,6 +13,12 @@ FileOO2Decorator class >> decorates: aFile [
 ^ self new file: aFile.
 ]
 
+{ #category : #public }
+FileOO2Decorator >> decorate [
+
+^ self subclassResponsibility.
+]
+
 { #category : #accessing }
 FileOO2Decorator >> extension [
 	^ file extension.
@@ -47,7 +53,7 @@ FileOO2Decorator >> permisos [
 { #category : #'menu commands' }
 FileOO2Decorator >> prettyPrint [
 
-^ file prettyPrint.
+^ file prettyPrint,' - ' ,self decorate.
 ]
 
 { #category : #accessing }

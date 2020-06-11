@@ -5,7 +5,7 @@ Class {
 }
 
 { #category : #'menu commands' }
-FileNameDecorator >> prettyPrint [
+FileNameDecorator >> decorate [
 
-^ super prettyPrint , self nombre. 
+^self nombre. 
 ]

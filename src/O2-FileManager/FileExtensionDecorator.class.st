@@ -5,7 +5,7 @@ Class {
 }
 
 { #category : #'menu commands' }
-FileExtensionDecorator >> prettyPrint [ 
+FileExtensionDecorator >> decorate [ 
 
-^ super prettyPrint , self extension.
+^ self extension.
 ]

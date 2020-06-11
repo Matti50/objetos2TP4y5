@@ -5,7 +5,7 @@ Class {
 }
 
 { #category : #'menu commands' }
-FileFechaDeCreacionDecorator >> prettyPrint [ 
+FileFechaDeCreacionDecorator >> decorate [ 
 
-^ super prettyPrint , self fechaDeCreacion.
+^ self fechaDeCreacion
 ]

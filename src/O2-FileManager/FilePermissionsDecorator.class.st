@@ -5,7 +5,7 @@ Class {
 }
 
 { #category : #'menu commands' }
-FilePermissionsDecorator >> prettyPrint [ 
+FilePermissionsDecorator >> decorate [
 
-^ super prettyPrint , self permisos.
+^self permisos.
 ]
