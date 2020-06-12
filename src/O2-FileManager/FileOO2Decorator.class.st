@@ -7,7 +7,7 @@ Class {
 	#category : #'O2-FileManager'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : #'instance creation' }
 FileOO2Decorator class >> decorates: aFile [ 
 
 ^ self new file: aFile.

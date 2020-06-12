@@ -15,6 +15,12 @@ DatabaseAccessProxy class >> auth: anAuthSystem [
 ]
 
 { #category : #accessing }
+DatabaseAccessProxy class >> database: aDatabase [
+
+^ self new database: aDatabase .
+]
+
+{ #category : #accessing }
 DatabaseAccessProxy >> authSystem: anAuthSystem [
 
 authSystem := anAuthSystem
@@ -24,6 +30,12 @@ authSystem := anAuthSystem
 DatabaseAccessProxy >> checkAccess [
 
 ^ authSystem isAuth.
+]
+
+{ #category : #accessing }
+DatabaseAccessProxy >> database: aDatabase [
+
+realDatabase := aDatabase.
 ]
 
 { #category : #public }
